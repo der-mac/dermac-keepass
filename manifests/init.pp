@@ -22,13 +22,13 @@
 #   Remove the keepass-install-file once the installed version is the one
 #   that should be installed
 # [*$proxy_address*]
-#   Proxy-server for the downlaod of the keepass-install-file
+#   Proxy-server for the download of the keepass-install-file
 #   Have a look in the download_module documentation
 # [*$proxy_user*]
-#   Proxy-user for the downlaod of the keepass-install-file
+#   Proxy-user for the download of the keepass-install-file
 #   Have a look in the download_module documentation
 # [*$proxy_password*]
-#   Proxy-passwort for the downlaod of the keepass-install-file
+#   Proxy-passwort for the download of the keepass-install-file
 #   Have a look in the download_module documentation
 # [*$is_password_secure*]
 #   Switch to change the way that proxyPassword is interpreted from secure
@@ -41,7 +41,7 @@
 #  Set this to false to deploy an fixed central configuration
 # [*$application_start_checkforupdate*]
 #  KeePass Option
-#  Swtich for the automatic Update-Check
+#  Switch for the automatic Update-Check
 #  Set this to false to deploy new versions only by puppet.
 # [*$*]
 #

@@ -31,7 +31,7 @@ class keepass::params {
   $meta_preferuserconfiguration     = true
 
   $default_package_version    = '2.36'
-  $default_package_name       = ['KeePass-2.36-Setup.exe']
+  $default_package_name       = ['KeePass Password Safe 2.36']
   $default_download_link      = 'https://downloads.sourceforge.net/project/keepass/KeePass%202.x/2.36/KeePass-2.36-Setup.exe'
   $default_install_dir        = 'C:\Program Files (x86)\KeePass Password Safe 2'
   $default_destination_file   = 'keepass-latest.exe'

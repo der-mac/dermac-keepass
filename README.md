@@ -1,4 +1,4 @@
-# KeePAss module for puppet
+# KeePass module for puppet
 
 #### Table of Contents
 
@@ -12,7 +12,7 @@
 
 ## Overview
 
-The keepass-module installs the application KeePass and creates the global-config
+The keepass-module installs the application KeePass and creates the global configuration.
 
 ## Module Description
 
@@ -20,7 +20,7 @@ With the keepass-module you can install and manage the application KeePass by do
 This happens only if the installed version is older (or not present) than the version that should be installed.
 
 The global configuration creates a central configuration for all users.
-You can decide to let the user overide these settings or not.
+You can decide if let the user override these settings or not.
 
 ## Setup
 
