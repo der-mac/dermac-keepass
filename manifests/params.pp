@@ -38,7 +38,7 @@ class keepass::params {
 
   case $::os['name'] {
     'windows': {
-      case $::os['release']['full'] {
+      case $::os['release']['major'] {
         '7', '10': {
           $package_version  = $default_package_version
           $package_name     = $default_package_name
@@ -47,7 +47,7 @@ class keepass::params {
           $destination_file = $default_destination_file
         }
         default: {
-          fail("The ${module_name} module is not supported on Windows Version ${::os['release']['full']} based system.")
+          fail("The ${module_name} module is not supported on Windows Version ${::os['release']['major']} based system.")
         }
       }
     }

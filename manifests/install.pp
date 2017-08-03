@@ -22,7 +22,7 @@ class keepass::install inherits keepass {
 
   case $::os['name'] {
     'windows': {
-      case $::os['release']['full'] {
+      case $::os['release']['major'] {
         '7', '10': {
           # Check installed version against package-version
           if (versioncmp($keepass::package_version, String($::keepass_installed_version)) > 0) or ($::keepass_installed_version == '') {
@@ -58,7 +58,7 @@ class keepass::install inherits keepass {
           }
         }
         default: {
-          fail("The ${module_name} module is not supported on Windows Version ${::os['release']['full']} based system.")
+          fail("The ${module_name} module is not supported on Windows Version ${::os['release']['major']} based system.")
         }
       }
     }
